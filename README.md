@@ -1,1 +1,1 @@
-## TripleX - A hacking similator number puzzle. Guess the correct numbers to pass through firewalls and eventually into the system to win the game!
+## JustHack is hacking similator number puzzle. Guess the correct numbers to pass through firewalls and eventually into the server to win the game!
