@@ -13,8 +13,8 @@ void PrintIntroduction(int Difficulty)
      /:::::::::::\" _  "
     /:::=======:::\`\`\
     `"""""""""""""`  '-')" << "\n";
-    std::cout << "You are a secret agent breaking into a Level " << Difficulty;
-    std::cout << " Secure Server Room...\nEnter the correct code to continue...\n";
+    std::cout << "You are a secret agent breaking into a server " << Difficulty;
+    std::cout << " Secure Server Room...\nEnter the correct code to continue through the firewalls...\n";
 }
 
 bool PlayGame(int Difficulty, int Max)
@@ -45,14 +45,14 @@ bool PlayGame(int Difficulty, int Max)
     {
         if(Difficulty < Max)
         {
-            std::cout << "\nCorrect! On to the next Level!";
+            std::cout << "\nCorrect! On to the next Firewall!";
         }
         
         return true;
     }
     else
     {
-        std::cout << "\nThat answer was incorrect! Retry the Level" ;
+        std::cout << "\nThat answer was incorrect! Retry the Firewall" ;
         return false;
     }
 }
@@ -77,6 +77,6 @@ int main()
         
     }
     
-    std::cout << "Congratulations! You hacked into all the servers!";
+    std::cout << "Congratulations! You hacked into the server!";
     return 0;
 }
